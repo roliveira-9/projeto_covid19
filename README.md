@@ -1,7 +1,7 @@
 <div align="center">
-<img src="https://hermes.dio.me/lab_projects/badges/de360b5e-2add-410d-9b17-431d4b229582.png" alt="Logo Bootcamp" width="80">
+<img src="./image/logo.png" alt="Logo Bootcamp" width="80">
 <h1>Desafio de Projeto: <br>Ciência de Dados com Python </h1>
-<img src="covid.png" alt="Covid 19" width="">
+<img src="./image/covid.png" alt="Covid 19" width="">
 </div>
 
 #   Criando Modelos de Previsão para Análise da Evolução do COVID-19 no Brasil 👨‍⚕️📈
@@ -39,7 +39,7 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
       
 
     <h5 align = "center"> 
-    <img src="./data.jpg"  />
+    <img src="./image/data.jpg"  />
     <p align ="left">  <strong>Imagem:</strong> Amostra da base dados.</p>
     </h5>
     
@@ -50,9 +50,9 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
 
 
     <h5 align = "center"> 
-        <img src="./data_brasil.jpg"  />
+        <img src="./image/data_brasil.jpg"  />
         <p align ="left">  <strong>Imagem:</strong> Amostra dos dados tratados.</p>
-        </h5>
+    </h5>
         
     <br>
 
@@ -61,16 +61,16 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
     - <strong>Casos Confirmados: </strong> Podemos analisar a evolução dos casos confirmados no Brasil ao longo do tempo que apresentaram uma taxa de crescimento médio de 16,27% no período avaliado. 
 
     <h5 align = "center"> 
-        <img src="./caso_confirmados.png"  />
+        <img src="./image/caso_confirmados.png"  />
         <p align ="left">  <strong>Imagem:</strong> Evolução de Casos Confirmados.</p>
-        </h5>
+    </h5>
         
     <br>
 
     - <strong>Número de Casos por Dia: </strong> Na análise anterior é possível visualizar o crescimento exponencial de casos apartir de Abril de 2020, contudo, o número de casos por dia apresenta uma visão um pouco mais preocupante dos picos de novos casos da doença.
     
     <h5 align = "center"> 
-        <img src="./novos_casos.png"  />
+        <img src="./image/novos_casos.png"  />
         <p align ="left">  <strong>Imagem:</strong> Evolução de Novos Casos por Dia.</p>
     </h5>
         
@@ -79,7 +79,7 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
     - <strong>Número de Mortes: </strong> Agora, podemos visualizar o crescimento no número de mortes ao longo do tempo ocasionado pela doença. Como esperado, o aumento no número de mortes resultante do crescimento de casos confimrados da doença.
     
     <h5 align = "center"> 
-        <img src="./n_mortes.png"  />
+        <img src="./image/n_mortes.png"  />
         <p align ="left">  <strong>Imagem:</strong> Número de Mortes por COVID 19.</p>
     </h5>
 
@@ -87,7 +87,7 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
 
     - <strong>Taxa de Crescimento de Casos de COVID 19 no Brasil: </strong> É possível analisarmos que no período que se iniciou o proliferação da doença houve um crescimento percentual diário, exponencial de casos e que ao decorrer do período houve uma estabilização no valor percentual de casos,porém apresentando que o contágio da doença continua evoluindo ao decorrer do período. 
     <h5 align = "center"> 
-        <img src="./taxa_diaria.png"  />
+        <img src="./image/taxa_diaria.png"  />
         <p align ="left">  <strong>Imagem:</strong> Taxa de Crescimento dos Casos de COVID 19.</p>
     </h5>
 
