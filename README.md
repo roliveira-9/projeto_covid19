@@ -105,8 +105,8 @@ Este projeto conclui com Ãªxito seu objetivo de desenvolver um modelo de previsÃ
 ### CÃ³digos:
 
 <div>
-    <a  href="https://linkedin.com/in/rafaelroliveira" target="_blank"><img alt= made-with-python src="https://img.shields.io/badge/aquivo.ipynb -Clique aqui-black
-?style=for-the-badge&logo=made-with-python&logoColor=white&color=orange" target="_blank" ></a>   
+    <a  href="https://github.com/roliveira-9/projeto_covid19/blob/main/code/code.ipynb" target="_blank"><img alt= made-with-python src="https://img.shields.io/badge/aquivo.ipynb -Clique aqui-black
+?style=for-the-badge&logo=made-with-python&logoColor=white&color=orange" target="_blank"> </a>   
 </div>
 
 
@@ -114,8 +114,8 @@ Este projeto conclui com Ãªxito seu objetivo de desenvolver um modelo de previsÃ
 ### Contato:
 
 <div>
-  <a href="https://linkedin.com/in/rafaelroliveira" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&color=black" target="_blank"></a>  
-  <a href = "mailto:roliveira06r@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=black" target="_blank"></a>
+  <a href="https://linkedin.com/in/rafaelroliveira" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&color=black" target="_blank"> </a>  
+  <a href = "mailto:roliveira06r@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=black" target="_blank"> </a>
 </div>
 
 
