@@ -105,8 +105,7 @@ Este projeto conclui com êxito seu objetivo de desenvolver um modelo de previs�
 ### Códigos:
 
 <div>
-    <a  href="https://github.com/roliveira-9/projeto_covid19/blob/main/code/code.ipynb" target="_blank"><img alt= made-with-python src="https://img.shields.io/badge/aquivo.ipynb -Clique aqui-black
-?style=for-the-badge&logo=made-with-python&logoColor=white&color=orange" target="_blank"> </a>   
+    <a  href="https://github.com/roliveira-9/projeto_covid19/blob/main/code/code.ipynb" target="_blank"><img alt= made-with-python src="https://img.shields.io/badge/aquivo.ipynb-Clique aqui-black?style=for-the-badge&logo=made-with-python&logoColor=white&color=orange" target="_blank"> </a>   
 </div>
 
 
