@@ -26,6 +26,15 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
 - Machine Learning.
 <br>
 
+#### Bibliotecas Utilizadas:
+- Pandas;
+- Numpy;
+- Plotly
+- Mathplotlib;
+- DateTime;
+- RegEx;
+- Statsmodels;  
+
 ### Etapas do Desafio:
 #
 
@@ -56,9 +65,9 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
         
     <br>
 
-2. <strong>Análise Exploratória dos Dados: </strong>Oportunidade de realizar uma análise exploratória para compreender a distribuição dos casos, identificar padrões sazonais e examinar correlações entre diferentes variáveis.
+2. <strong>Análise Exploratória dos Dados: </strong>Oportunidade de realizar uma análise exploratória para compreender a distribuição dos casos, identificar padrões, sazonalidades e examinar correlações entre diferentes variáveis.
     
-    - <strong>Casos Confirmados: </strong> Podemos analisar a evolução dos casos confirmados no Brasil ao longo do tempo que apresentaram uma taxa de crescimento médio de 16,27% no período avaliado. 
+    - <strong>Casos Confirmados: </strong> Podemos analisar a evolução dos casos confirmados no Brasil ao longo do tempo que apresentaram uma taxa média de crescimento de 16,27% no período avaliado, dando inicio de casos confirmados em 26/02/2020. 
 
     <h5 align = "center"> 
         <img src="./image/caso_confirmados.png"  />
@@ -67,7 +76,7 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
         
     <br>
 
-    - <strong>Número de Casos por Dia: </strong> Na análise anterior é possível visualizar o crescimento exponencial de casos apartir de Abril de 2020, contudo, o número de casos por dia apresenta uma visão um pouco mais preocupante dos picos de novos casos da doença.
+    - <strong>Número de Casos por Dia: </strong> Na análise anterior é possível visualizar o crescimento exponencial de casos apartir de Abril de 2020, contudo, o número de casos por dia apresenta uma visão um pouco mais preocupante dos picos de novos casos da doença apresentando uma taxa média de crescimento diário de 19.35%.
     
     <h5 align = "center"> 
         <img src="./image/novos_casos.png"  />
@@ -85,7 +94,7 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
 
     <br>
 
-    - <strong>Taxa de Crescimento de Casos de COVID 19 no Brasil: </strong> É possível analisarmos que no período que se iniciou o proliferação da doença houve um crescimento percentual diário, exponencial de casos e que ao decorrer do período houve uma estabilização no valor percentual de casos,porém apresentando que o contágio da doença continua evoluindo ao decorrer do período. 
+    - <strong>Taxa de Crescimento de Casos de COVID 19 no Brasil: </strong> É possível analisarmos que no período que se iniciou o proliferação da doença houve um crescimento percentual diário, exponencial de casos e que ao decorrer do período houve uma estabilização no valor percentual de casos,porém apresentando que o contágio da doença continua ao decorrer do período, atentando-nos para que ao apresentar uma taxa menor 0 o contágio comece a diminuir. 
     <h5 align = "center"> 
         <img src="./image/taxa_diaria.png"  />
         <p align ="left">  <strong>Imagem:</strong> Taxa de Crescimento dos Casos de COVID 19.</p>
@@ -94,7 +103,12 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
     <br>
 
 3. <strong>Desenvolvimento do Modelo de Previsão: </strong> Vamos iniciar construindo um modelo de séries temporais para prever novos casos de COVID 19:
+    <h5 align = "center"> 
+        <img src="./image/predicao_arima.png"  />
+        <p align ="left">  <strong>Imagem:</strong> Predição de Casos de COVID 19 para os próximos 15 dias.</p>
+    </h5>
 
+    <br>
 
 #
 ### Conclusão:
