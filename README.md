@@ -22,7 +22,7 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
 - Gráficos;
 - Funções e;
 - Machine Learning.
-<br>
+
 
 
 ### Etapas do Desafio:
