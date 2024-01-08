@@ -2,38 +2,50 @@
 <img src="./image/logo.png" alt="Logo Bootcamp" width="80">
 <h1>Desafio de Projeto: <br>Ciência de Dados com Python </h1>
 <img src="./image/covid.png" alt="Covid 19" width="">
-</div>
+</div><br>
 
-#   Criando Modelos de Previsão para Análise da Evolução do COVID-19 no Brasil 👨‍⚕️📈
+#   Criando Modelos de Previsão para Analisar a Evolução do COVID-19 no Brasil 👨‍⚕️📈
 
 
 ## Entendendo o desafio
-A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo no Brasil. A capacidade de prever a evolução da doença é crucial para a implementação de medidas preventivas e alocar recursos de forma eficiente.
+A pandemia do COVID-19 teve um impacto significativo em todo o mundo, incluindo no Brasil. A capacidade de prever a evolução da doença é crucial para a implementação de medidas preventivas e alocar recursos de forma eficiente.
 
 <br>
 
 <strong>Definição do Objetivo: </strong>Você é um cientista de dados contratado para um projeto de Machine Learning com o objetivo de criar um modelo de previsão utilizando Python para analisar e estimar a evolução da COVID-19 no Brasil. O intuito é fornecer insights valiosos sobre possíveis tendências futuras dos casos de COVID 19 no Brasil com base nos dados históricos disponíveis.
 
+### Linguagem Utilizada:
+
+<img align="center" alt= python src="https://img.shields.io/badge/Python-1A1A1A?style=for-the-badge&logo=python&logoColor=white" />
+
+### Principais Bibliotecas Utilizadas:
+![Pandas](https://img.shields.io/badge/pandas-%23363636.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-%23363636.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23363636.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23363636.svg?style=for-the-badge&logo=Matplotlib&logoColor=white)
+![Statismodels](https://img.shields.io/badge/Statismodels-%23363636.svg?style=for-the-badge&logo=Statismodels&logoColor=%white)
+
 
 #### Fundamentos Utilizados:
 
-- Estruturas Lógicas e Condicionais;
-- Variáveis e tipos de dados;
-- Gráficos;
-- Funções e;
+- Estruturas Lógicas, Condicionais e de Repetição;
+- Variáveis e Tipos de Dados;
+- Visualização de dados;
+- Funções e Docstrings;
 - Machine Learning.
 
+<br>
 
 
-### Etapas do Desafio:
-#
+## Etapas do Desafio:
+
 
 
 1. <strong>Coleta e Preparação dos Dados:</strong>
     
     <br>
     
-    - <strong>Dados Disponíveis: </strong>Os dados necessários para este projeto podem ser obtidos a partir de fontes confiáveis, como órgãos de saúde pública, instituições governamentais ou repositórios online. A coleta dos dados utilizados neste projeto foi realizado de um arquivo CSV na plataforma de competições Kaggle, disponível em: https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset
+    - <strong>Dados Disponíveis: </strong>Os dados necessários para este projeto podem ser obtidos a partir de fontes confiáveis, como órgãos de saúde pública, instituições governamentais ou repositórios online. A coleta dos dados utilizados neste projeto foi realizado de um arquivo CSV baixado na plataforma de competições Kaggle, disponível em: https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset
 
       
 
@@ -45,31 +57,31 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
     <br>
 
     
-    - <strong>Pré-Processamento: </strong>Após a obtenção dos dados é necessário garantir que os dados estejam prontos para a análise e livres de ruídos, inconsistências e redundâncias. Visando a qualidade dos dados a serem analisados. Com isso, foi necessário conferir se os tipos de dados estavam corretos, assegurar que os nomes das colunas estivessem sem caracteres especiais e letras maiúsculas, filtrados por país, neste caso o Brasil. Importante observar que os dados do país não apresentam informações a nível de estado e região, somente em nível nacional.
-
+    - <strong>Pré-Processamento: </strong>Após a obtenção dos dados foi necessário garantir que os dados estivessem prontos para a análise e livres de ruídos, inconsistências e redundâncias, visando a qualidade dos dados a serem analisados. Com isso, foi necessário conferir se os tipos de dados estavam corretos, assegurar que os nomes das colunas estivessem sem caracteres especiais e letras maiúsculas, filtrados por país, neste caso o Brasil e excluir da análise colunas desnecessárias para a finalidade do projeto. 
 
     <h5 align = "center"> 
         <img src="./image/data_brasil.jpg"  />
         <p align ="left">  <strong>Imagem:</strong> Amostra dos dados tratados.</p>
     </h5>
-        
+
+     ##### Observação: Os dados do país não apresentam informações a nível de estado e região, somente em nível nacional.   
     <br>
 
 2. <strong>Análise Exploratória dos Dados: </strong>Oportunidade de realizar uma análise exploratória para compreender a distribuição dos casos, identificar padrões, sazonalidades e examinar correlações entre diferentes variáveis.
     
-    - <strong>Casos Confirmados: </strong> Podemos analisar a evolução dos casos confirmados no Brasil ao longo do tempo que apresentaram uma taxa média de crescimento de 16,27% no período avaliado, dando inicio de casos confirmados em 26/02/2020. 
+    - <strong>Casos Confirmados: </strong> Podemos analisar a evolução dos casos confirmados no Brasil ao longo do tempo que apresentaram uma taxa média de crescimento de 16,27% no período avaliado, dando inicio de casos confirmados em 26/02/2020. Até o fim do período analisado, em 19/05/2020 foram confirmados 271,885 mil casos de COVID 19 no Brasil. 
 
     <h5 align = "center"> 
-        <img src="./image/caso_confirmados.png"  />
+        <img src="./image/caso_confirmados.gif"  />
         <p align ="left">  <strong>Imagem:</strong> Evolução de Casos Confirmados.</p>
     </h5>
         
     <br>
 
-    - <strong>Número de Casos por Dia: </strong> Na análise anterior é possível visualizar o crescimento exponencial de casos apartir de Abril de 2020, contudo, o número de casos por dia apresenta uma visão um pouco mais preocupante dos picos de novos casos da doença apresentando uma taxa média de crescimento diário de 19.35%.
+    - <strong>Número de Casos por Dia: </strong> Na análise anterior é possível visualizar o crescimento exponencial de casos apartir de Abril de 2020, contudo, o número de casos por dia apresenta uma visão um pouco mais preocupante e os picos de novos casos da doença acompanhada de uma taxa média de crescimento diário de 19.35%.
     
     <h5 align = "center"> 
-        <img src="./image/novos_casos.png"  />
+        <img src="./image/novos_casos.gif"  />
         <p align ="left">  <strong>Imagem:</strong> Evolução de Novos Casos por Dia.</p>
     </h5>
         
@@ -78,7 +90,7 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
     - <strong>Número de Mortes: </strong> Agora, podemos visualizar o crescimento no número de mortes ao longo do tempo ocasionado pela doença. Como esperado, o aumento no número de mortes resultante do crescimento de casos confimrados da doença.
     
     <h5 align = "center"> 
-        <img src="./image/n_mortes.png"  />
+        <img src="./image/n_mortes.gif"  />
         <p align ="left">  <strong>Imagem:</strong> Número de Mortes por COVID 19.</p>
     </h5>
 
