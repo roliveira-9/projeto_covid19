@@ -15,8 +15,6 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
 <strong>Definição do Objetivo: </strong>Você é um cientista de dados contratado para um projeto de Machine Learning com o objetivo de criar um modelo de previsão utilizando Python para analisar e estimar a evolução da COVID-19 no Brasil. O intuito é fornecer insights valiosos sobre possíveis tendências futuras dos casos de COVID 19 no Brasil com base nos dados históricos disponíveis.
 
 
-
-
 #### Fundamentos Utilizados:
 
 - Estruturas Lógicas e Condicionais;
@@ -26,14 +24,6 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
 - Machine Learning.
 <br>
 
-#### Bibliotecas Utilizadas:
-- Pandas;
-- Numpy;
-- Plotly
-- Mathplotlib;
-- DateTime;
-- RegEx;
-- Statsmodels;  
 
 ### Etapas do Desafio:
 #
@@ -110,6 +100,12 @@ A pandemia da COVID-19 teve um impacto significativo em todo o mundo, incluindo 
 
     <br>
 
+    <h5 align = "center"> 
+        <img src="./image/predicao_prophet.png"  />
+        <p align ="left">  <strong>Imagem:</strong> Predição de Casos de COVID 19 para os próximos 200 dias.</p>
+    </h5>
+
+    <br>
 #
 ### Conclusão:
 
