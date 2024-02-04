@@ -57,7 +57,7 @@ A pandemia do COVID-19 teve um impacto significativo em todo o mundo, incluindo 
     <br>
 
     
-    - <strong>Pré-Processamento: </strong>Após a obtenção dos dados foi necessário garantir que os dados estivessem prontos para a análise e livres de ruídos, inconsistências e redundâncias, visando a qualidade dos dados a serem analisados. Com isso, foi necessário conferir se os tipos de dados estavam corretos, assegurar que os nomes das colunas estivessem sem caracteres especiais e letras maiúsculas, filtrados por país, neste caso o Brasil e excluir da análise colunas desnecessárias para a finalidade do projeto. 
+    - <strong>Pré-Processamento: </strong>Após a importação da base de dados foi necessário garantir que  as informações estivessem prontas para a análise e livres de ruídos, inconsistências e redundâncias, visando a qualidade dos dados a serem analisados. Com isso, foi necessário conferir se os tipos de dados estavam corretos, assegurar que os nomes das colunas estivessem sem caracteres especiais e letras maiúsculas, filtrados por país, neste caso o Brasil e excluir da análise colunas desnecessárias para a finalidade do projeto. 
 
     <h5 align = "center"> 
         <img src="./image/data_brasil.jpg"  />
@@ -67,9 +67,9 @@ A pandemia do COVID-19 teve um impacto significativo em todo o mundo, incluindo 
      ##### Observação: Os dados do país não apresentam informações a nível de estado e região, somente em nível nacional.   
     <br>
 
-2. <strong>Análise Exploratória dos Dados: </strong>Oportunidade de realizar uma análise exploratória para compreender a distribuição dos casos, identificar padrões, sazonalidades e examinar correlações entre diferentes variáveis.
+2. <strong>Análise Exploratória dos Dados: </strong>Chegamos ao momento de realizar uma análise exploratória dos dados para compreender a distribuição dos casos, identificar padrões, sazonalidades e examinar se há correlações entre diferentes variáveis.
     
-    - <strong>Casos Confirmados: </strong> Podemos analisar a evolução dos casos confirmados no Brasil ao longo do tempo que apresentaram uma taxa média de crescimento de 16,27% no período avaliado, dando inicio de casos confirmados em 26/02/2020. Até o fim do período analisado, em 19/05/2020 foram confirmados 271,885 mil casos de COVID 19 no Brasil. 
+    - <strong>Casos Confirmados: </strong> Podemos constatar a evolução dos casos confirmados no Brasil ao longo do tempo, que apresentaram uma taxa média de crescimento de 16,27% no período avaliado, dando-se inicio dos casos confirmados em 26/02/2020. Até o fim do período analisado, em 19/05/2020 foram confirmados 271,885 mil casos de COVID 19 no Brasil. 
 
     <h5 align = "center"> 
         <img src="./image/caso_confirmados.gif"  />
@@ -78,7 +78,7 @@ A pandemia do COVID-19 teve um impacto significativo em todo o mundo, incluindo 
         
     <br>
 
-    - <strong>Número de Casos por Dia: </strong> Na análise anterior é possível visualizar o crescimento exponencial de casos apartir de Abril de 2020, contudo, o número de casos por dia apresenta uma visão um pouco mais preocupante e os picos de novos casos da doença acompanhada de uma taxa média de crescimento diário de 19.35%.
+    - <strong>Número de Casos por Dia: </strong> Na análise anterior foi possível visualizar o crescimento exponencial de casos apartir de Abril de 2020, contudo, o número de casos por dia apresenta uma visão um pouco mais preocupante e os picos de novos casos da doença acompanhada de uma taxa média de crescimento diário de 19.35%.
     
     <h5 align = "center"> 
         <img src="./image/novos_casos.gif"  />
@@ -87,7 +87,7 @@ A pandemia do COVID-19 teve um impacto significativo em todo o mundo, incluindo 
         
     <br>
 
-    - <strong>Número de Mortes: </strong> Agora, podemos visualizar o crescimento no número de mortes ao longo do tempo ocasionado pela doença. Como esperado, o aumento no número de mortes resultante do crescimento de casos confimrados da doença.
+    - <strong>Número de Mortes: </strong> Agora, podemos visualizar o crescimento no número de mortes ao longo do tempo em circunstância da proliferação da doença. Como esperado, o crescimento no número de mortes acompanha aumento de casos confirmados da doença.
     
     <h5 align = "center"> 
         <img src="./image/n_mortes.gif"  />
@@ -96,7 +96,7 @@ A pandemia do COVID-19 teve um impacto significativo em todo o mundo, incluindo 
 
     <br>
 
-    - <strong>Taxa de Crescimento de Casos de COVID 19 no Brasil: </strong> É possível analisarmos que no período que se iniciou o proliferação da doença houve um crescimento percentual diário, exponencial de casos e que ao decorrer do período houve uma estabilização no valor percentual de casos,porém apresentando que o contágio da doença continua ao decorrer do período, atentando-nos para que ao apresentar uma taxa menor 0 o contágio comece a diminuir. 
+    - <strong>Taxa de Crescimento de Casos de COVID 19 no Brasil: </strong> É possível analisarmos que no período que se iniciou o proliferação da doença houve um crescimento percentual diário, exponencial de casos e que ao decorrer do período houve uma estabilização no valor percentual de casos,porém apresentando que o contágio da doença continua ao decorrer do período, atentando-nos para o momento em que ao apresentar uma taxa menor 0% o contágio começará a diminuir. 
     <h5 align = "center"> 
         <img src="./image/taxa_diaria.png"  />
         <p align ="left">  <strong>Imagem:</strong> Taxa de Crescimento dos Casos de COVID 19.</p>
@@ -104,11 +104,17 @@ A pandemia do COVID-19 teve um impacto significativo em todo o mundo, incluindo 
 
     <br>
 
-3. <strong>Desenvolvimento do Modelo de Previsão: </strong> Vamos iniciar construindo um modelo de séries temporais para prever novos casos de COVID 19:
+3. <strong>Desenvolvimento do Modelo de Previsão: </strong> Construimos dois modelos de previsão para analisar a evolução de novos casos de COVID 19:
+
+    -  <strong>Metódo ARIMA: </strong>Neste modelo de previsão iniciamos uma análise de 15 dias. É possível visualizar que a apredizagem do modelo acompanha corretamente os dados observados da base e apresentando uma previsão de crescimento no número de casos confirmados e chegando no final do período a 568.125 mil casos de COVID 19.
+
     <h5 align = "center"> 
         <img src="./image/predicao_arima.png"  />
         <p align ="left">  <strong>Imagem:</strong> Predição de Casos de COVID 19 para os próximos 15 dias.</p>
     </h5>
+
+    #### Obervação de Resultado: No dia 03/06/2020 no final do período de análise foram apresentados 584.562 mil casos de COVID 19 -  https://g1.globo.com/bemestar/coronavirus/noticia/2020/06/03/casos-de-coronavirus-e-numero-de-mortes-no-brasil-em-3-de-junho.ghtml. Apresentando uma acurácia de 97.18% do modelo de previsão.
+
 
     <br>
 
