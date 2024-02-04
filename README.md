@@ -104,19 +104,19 @@ A pandemia do COVID-19 teve um impacto significativo em todo o mundo, incluindo 
 
     <br>
 
-3. <strong>Desenvolvimento do Modelo de Previsão: </strong> Construimos dois modelos de previsão para analisar a evolução de novos casos de COVID 19:
+3. <strong>Desenvolvimento do Modelo de Previsão: </strong> Construimos dois modelos de previsão para analisar a evolução de novos casos de COVID 19 e avaliar qual dos dois mais se adequa ao nosso estudo:
 
-    -  <strong>Metódo ARIMA: </strong>Neste modelo de previsão iniciamos uma análise de 15 dias. É possível visualizar que a apredizagem do modelo acompanha corretamente os dados observados da base e apresentando uma previsão de crescimento no número de casos confirmados e chegando no final do período a 568.125 mil casos de COVID 19.
+    -  <strong>Metódo ARIMA: </strong>Neste modelo de previsão realizamos uma análise de 15 dias. É possível visualizar que a apredizagem do modelo acompanha corretamente os dados observados da base e apresentando uma previsão de crescimento no número de casos confirmados no final do período a 568.125 casos de COVID 19.
 
     <h5 align = "center"> 
         <img src="./image/predicao_arima.png"  />
         <p align ="left">  <strong>Imagem:</strong> Predição de Casos de COVID 19 para os próximos 15 dias.</p>
     </h5>
 
-    #### Obervação de Resultado: No dia 03/06/2020 no final do período de análise foram apresentados 584.562 mil casos de COVID 19 -  https://g1.globo.com/bemestar/coronavirus/noticia/2020/06/03/casos-de-coronavirus-e-numero-de-mortes-no-brasil-em-3-de-junho.ghtml. Apresentando uma acurácia de 97.18% do modelo de previsão.
-
-
     <br>
+
+    -  <strong>Metódo Forecasting com Facebook Prophet: </strong> Neste modelo realizamos análise de um período maior, 200 dias, com um crescimento exponencial de casos e apresentando uma predição de 2.107.424 casos de COVID 19 no Brasil ao final do período.
+
 
     <h5 align = "center"> 
         <img src="./image/predicao_prophet.png"  />
@@ -124,6 +124,12 @@ A pandemia do COVID-19 teve um impacto significativo em todo o mundo, incluindo 
     </h5>
 
     <br>
+
+<strong>ATUALIZAÇÃO DO RESULTADO: </strong>No dia 03/06/2020 no final do período de análise foram registrados 584.562 casos de COVID 19  e no dia 30/11/2020 foram registrados 6.336.278 casos. Com isso, podemos afirmar que o modelo de previsão mais adequado ao nosso estudo é o Metódo ARIMA  apresentando uma acurácia de 97.18% do modelo de previsão.
+
+#### Fontes:
+- https://g1.globo.com/bemestar/coronavirus/noticia/2020/06/03/casos-de-coronavirus-e-numero-de-mortes-no-brasil-em-3-de-junho.ghtml
+- https://g1.globo.com/bemestar/coronavirus/noticia/2020/11/30/casos-e-mortes-por-coronavirus-no-brasil-em-30-de-novembro-segundo-consorcio-de-veiculos-de-imprensa.ghtml
 #
 ### Conclusão:
 
